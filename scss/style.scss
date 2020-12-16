@@ -6,196 +6,196 @@ $light-color: #eee;
 */
 
 body {
-  position: relative;
-  margin: 0;
-  min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 32px;
-  background-repeat: no-repeat;
-  background-position: top center;
+	position: relative;
+	margin: 0;
+	min-width: 960px;
+	font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+	background-repeat: no-repeat;
+	background-position: top center;
 }
 
 .container {
-  max-width: 928px;
-  margin: 0 auto;
-  padding: 0 16px;
+	max-width: 928px;
+	margin: 0 auto;
+	padding: 0 16px;
 }
 
 .page-header {
-  margin: 0 0 160px;
-  padding: 32px 0 32px;
-  font-weight: 500;
+	margin: 0 0 160px;
+	padding: 32px 0 32px;
+	font-weight: 500;
 
-  .container {
-    max-width: 1408px;
-    text-align: right;
+	.container {
+		max-width: 1408px;
+		text-align: right;
 
-    button {
-      border-radius: 8px;
-    }
-  }
-  a {
-    margin-left: 36px;
-    margin-right: 36px;
-    text-decoration: none;
-    background-repeat: no-repeat;
-    background-position: left;
-  }
+		button {
+			border-radius: 8px;
+		}
+	}
+	a {
+		margin-left: 36px;
+		margin-right: 36px;
+		text-decoration: none;
+		background-repeat: no-repeat;
+		background-position: left;
+	}
 }
 
 .header-email {
-  padding-left: 30px;
+	padding-left: 30px;
 }
 
 .header-phone {
-  padding-left: 25px;
+	padding-left: 25px;
 }
 
 .hero-image {
-  margin-bottom: 620px;
+	margin-bottom: 620px;
 
-  .container {
-    max-width: 1408px;
-    text-align: center;
-  }
+	.container {
+		max-width: 1408px;
+		text-align: center;
+	}
 
-  p {
-    margin: 0;
-    font-size: 32px;
-    line-height: 48px;
-  }
+	p {
+		margin: 0;
+		font-size: 32px;
+		line-height: 48px;
+	}
 }
 
 .heading {
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
-  line-height: 96px;
-  font-weight: 400;
+	margin: 0 0 16px;
+	font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+	font-size: 88px;
+	line-height: 96px;
+	font-weight: 400;
 }
 
 .intro {
-  margin: 0 0 120px;
+	margin: 0 0 120px;
 
-  p {
-    margin: 0 0 32px;
-  }
+	p {
+		margin: 0 0 32px;
+	}
 }
 
 .subheading {
-  margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 64px;
-  line-height: 80px;
-  font-weight: 400;
-  text-align: center;
+	margin: 0 0 56px;
+	font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+	font-size: 64px;
+	line-height: 80px;
+	font-weight: 400;
+	text-align: center;
 }
 
 .user-image {
-  margin: 0 0 32px;
-  text-align: center;
+	margin: 0 0 32px;
+	text-align: center;
 }
 
 .intro h3,
 .portfolio h3 {
-  margin: 0 0 12px;
-  font-size: 28px;
-  line-height: 40px;
-  font-weight: 500;
+	margin: 0 0 12px;
+	font-size: 28px;
+	line-height: 40px;
+	font-weight: 500;
 }
 
 .skills-list {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 
-  dt {
-    padding-left: 32px;
-    background-repeat: no-repeat;
-    background-position: left;
-  }
+	dt {
+		padding-left: 32px;
+		background-repeat: no-repeat;
+		background-position: left;
+	}
 }
 
 .skill-html {
-  background-image: url("../img/icon-html.svg");
+	background-image: url("../img/icon-html.svg");
 }
 
 .skill-css {
-  background-image: url("../img/icon-css.svg");
+	background-image: url("../img/icon-css.svg");
 }
 
 .level {
-  margin: 4px 0 16px;
-  padding: 0;
-  height: 14px;
-  font-size: 0;
-  border-radius: 8px;
+	margin: 4px 0 16px;
+	padding: 0;
+	height: 14px;
+	font-size: 0;
+	border-radius: 8px;
 
-  div {
-    margin: 1px;
-    height: 12px;
-    border-radius: 6px;
-  }
+	div {
+		margin: 1px;
+		height: 12px;
+		border-radius: 6px;
+	}
 }
 
 .portfolio {
-  margin: 0 0 120px;
+	margin: 0 0 120px;
 }
 
 .projects {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
 
-  li {
-    margin: 0 0 80px;
-  }
-  p {
-    margin: 0 0 24px;
-  }
+	li {
+		margin: 0 0 80px;
+	}
+	p {
+		margin: 0 0 24px;
+	}
 }
 
 .project-image {
-  margin: 0 0 24px;
-  text-align: center;
+	margin: 0 0 24px;
+	text-align: center;
 }
 
 .button {
-  margin: 0;
-  padding: 8px 24px;
-  display: inline-block;
-  vertical-align: baseline;
-  font-weight: 500;
-  letter-spacing: 0.5px;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 8px;
-  color: #ffffff;
+	margin: 0;
+	padding: 8px 24px;
+	display: inline-block;
+	vertical-align: baseline;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 8px;
+	color: #ffffff;
 }
 
 .page-footer {
-  padding: 40px 0;
+	padding: 40px 0;
 
-  .container {
-    max-width: 1408px;
-    text-align: right;
-  }
-  a {
-    margin-left: 56px;
-    color: inherit;
-    text-decoration: none;
-    background-repeat: no-repeat;
-    background-position: left;
-    font-weight: 500;
-  }
+	.container {
+		max-width: 1408px;
+		text-align: right;
+	}
+	a {
+		margin-left: 56px;
+		color: inherit;
+		text-decoration: none;
+		background-repeat: no-repeat;
+		background-position: left;
+		font-weight: 500;
+	}
 }
 
 .footer-email {
-  padding-left: 30px;
+	padding-left: 30px;
 }
 
 .footer-phone {
-  padding-left: 25px;
+	padding-left: 25px;
 }
 
 @import "_thems";
