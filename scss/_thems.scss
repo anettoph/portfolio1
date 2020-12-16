@@ -8,8 +8,14 @@
 			color: #288be6;
 		}
 		.container button {
-			background-color: #080208;
-			color: #f2f4f6;
+			box-shadow: 0 4px 16px rgba(98, 187, 223, 0.4);
+			transition: background-color 100ms, box-shadow 100ms;
+			&:focus,
+			&:hover {
+				box-shadow: 0 4px 16px rgba(168, 28, 161, 0.4);
+				background-color: #390c4b;
+				color: #f2f4f6;
+			}
 		}
 	}
 	.header-email {
@@ -63,7 +69,13 @@
 			color: #fea18d;
 		}
 		.container button {
-			background-color: #f2f4f6;
+			background-color: #390c4b;
+			color: #f2f2f2;
+			&:focus,
+			&:hover {
+				background-color: #f2f4f6;
+				color: #080208;
+			}
 		}
 	}
 	.header-email {
@@ -81,6 +93,17 @@
 	}
 	.button {
 		background-color: #712073;
+		box-shadow: 0 4px 16px rgba(168, 28, 161, 0.4);
+		transition: background-color 100ms, box-shadow 100ms;
+		&:focus,
+		&:hover {
+			background-color: #681969;
+			box-shadow: 0 4px 32px rgbargba(168, 28, 161, 0.6);
+		}
+		&:active {
+			background-color: #5b115c;
+			box-shadow: none;
+		}
 	}
 	.page-footer {
 		background-color: #260c26;
