@@ -1,8 +1,13 @@
+var clickCounter = 0;
 function toggleDarkLight() {
-    var body = document.getElementById("body");
-    var button = document.getElementById("button");
-    var currentClass = body.className;
-    var currentText = button.textContent;
-    body.className = currentClass == "dark-theme" ? "light-theme" : "dark-theme";
-    button.textContent = currentText == "Выключить свет" ? "Включить свет" : "Выключить свет";
-  }
+	let body = document.getElementById("body");
+	let button = document.getElementById("button");
+	let currentClass = body.className;
+	let currentText = button.title;
+	body.className = currentClass == "dark-theme" ? "light-theme" : "dark-theme";
+	button.title = currentText == "Выключить свет" ? "Включить свет" : "Выключить свет";
+	clickCounter++;
+	if (clickCounter > 10) {
+		clickCounter = 0;
+	}
+}

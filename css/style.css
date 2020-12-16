@@ -33,6 +33,9 @@ body {
 }
 
 .page-header .container button {
+  font-weight: 550;
+  display: inline-block;
+  vertical-align: baseline;
   border-radius: 8px;
 }
 
