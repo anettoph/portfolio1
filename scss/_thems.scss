@@ -1,0 +1,95 @@
+.light-theme {
+   color: #222222;
+   background-color: #f2f4f6;
+   background-image: url("../img/basic-light-hero-bg.jpg");
+
+   .page-header {
+      a {
+         color: #288be6;
+      }
+      .container button {
+         background-color: #080208;
+         color: #f2f4f6;
+      }
+   }
+   .header-email {
+      background-image: url("../img/basic-light-icon-email-header.svg");
+   }
+   .header-phone {
+      background-image: url("../img/basic-light-icon-phone-header.svg");
+   }
+   .level {
+      background-color: #ffffff;
+      border: 1px solid #86c3fa;
+      div {
+         background-color: #288be6;
+      }
+   }
+   .button {
+      background-color: #288be6;
+      box-shadow: 0 4px 16px rgba(61, 126, 247, 0.4);
+      transition: background-color 100ms, box-shadow 100ms;
+      &:focus,
+      &:hover {
+         background-color: #207bcf;
+         box-shadow: 0 4px 32px rgba(61, 126, 247, 0.6);
+      }
+      &:active {
+         background-color: #1c6db9;
+         box-shadow: none;
+      }
+   }
+   .page-footer {
+      background-color: #00417d;
+      color: #ffffff;
+   }
+
+   .footer-email {
+      background-image: url("../img/icon-email-footer.svg");
+   }
+
+   .footer-phone {
+      background-image: url("../img/icon-phone-footer.svg");
+   }
+}
+
+.dark-theme {
+   color: #f2f2f2;
+   background-color: #080208;
+   background-image: url("../img/basic-dark-hero-bg.jpg");
+
+   .page-header {
+      a {
+         color: #fea18d;
+      }
+      .container button {
+         background-color: #f2f4f6;
+      }
+   }
+   .header-email {
+      background-image: url("../img/basic-dark-icon-email.svg");
+   }
+   .header-phone {
+      background-image: url("../img/basic-dark-icon-phone.svg");
+   }
+   .level {
+      background-color: #080208;
+      border: 1px solid #712073;
+      div {
+         background-color: #fea18d;
+      }
+   }
+   .button {
+      background-color: #712073;
+   }
+   .page-footer {
+      background-color: #260c26;
+      color: #fea18d;
+   }
+   .footer-email {
+      background-image: url("../img/basic-dark-icon-email.svg");
+   }
+   .footer-phone {
+      background-image: url("../img/basic-dark-icon-phone.svg");
+   }
+}
