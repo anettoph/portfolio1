@@ -1,14 +1,17 @@
-/* 
-$dark-color: #111;
-$light-color: #eee; 
+// $dark-color: #111;
+// $light-color: #eee;
 
-@import "_header"
-*/
+// @import "_xxx"
+
+/*Обнуление стилей*/
+
+@import "_null";
+
+/*Основа верстки*/
 
 body {
 	position: relative;
 	margin: 0;
-	min-width: 960px;
 	font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
 	font-size: 16px;
 	line-height: 32px;
@@ -17,9 +20,27 @@ body {
 }
 
 .container {
-	max-width: 928px;
+	max-width: 1300px;
 	margin: 0 auto;
 	padding: 0 16px;
+}
+
+@media (max-width: 1200px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+@media (max-width: 992px) {
+	.container {
+		max-width: 750px;
+	}
+}
+
+@media (max-width: 767px) {
+	.container {
+		max-width: none;
+	}
 }
 
 .page-header {
@@ -28,14 +49,17 @@ body {
 	font-weight: 500;
 
 	.container {
-		max-width: 1408px;
 		text-align: right;
 
 		button {
 			font-weight: 550;
 			display: inline-block;
 			vertical-align: baseline;
+			padding: 2px 8px;
 			border-radius: 8px;
+			&:disabled {
+				opacity: 0.25;
+			}
 		}
 	}
 	a {
@@ -59,7 +83,6 @@ body {
 	margin-bottom: 620px;
 
 	.container {
-		max-width: 1408px;
 		text-align: center;
 	}
 
@@ -180,7 +203,6 @@ body {
 	padding: 40px 0;
 
 	.container {
-		max-width: 1408px;
 		text-align: right;
 	}
 	a {
@@ -200,5 +222,7 @@ body {
 .footer-phone {
 	padding-left: 25px;
 }
+
+/*Цветовые темы*/
 
 @import "_thems";
